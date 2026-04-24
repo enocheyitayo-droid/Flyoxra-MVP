@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --bg:    #dce1ed; --card:  #0C1220; --elev:  #dee2ec;
+  --inp:   #0F1A2E; --bd:    #1A2540; --bd2:   #253250;
+  --gold:  #BF9B54; --goldL: #D4AF6A; --cream: #ECE8DF;
+  --muted: #6B7A9C; --ok:    #27AE7A; --warn:  #E8A020;
+  --err:   #C0392B;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--cream); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+input, select, textarea { background: var(--inp); border: 1px solid var(--bd); border-radius: 8px; padding: 10px 14px; color: var(--cream); font-size: 13px; outline: none; width: 100%; font-family: inherit; }
+input:focus, select:focus, textarea:focus { border-color: var(--gold); }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--bd2); border-radius: 3px; }
+input[type=date]::-webkit-calendar-picker-indicator,
+input[type=time]::-webkit-calendar-picker-indicator { filter: invert(0.45); cursor: pointer; }

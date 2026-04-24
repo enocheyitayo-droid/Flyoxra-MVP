@@ -1,0 +1,31 @@
+{
+  "name": "aeroluxe-real-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@next/swc-win32-x64-msvc": "^16.2.4",
+    "fuse.js": "^7.3.0",
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@babel/preset-react": "^7.28.5",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^10.1.1",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
